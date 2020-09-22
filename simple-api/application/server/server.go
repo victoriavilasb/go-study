@@ -1,10 +1,11 @@
-package main
+package server
 
 import (
 	"encoding/json"
 	"net/http"
 	"fmt"
 	"log"
+	""
 )
 
 type Room struct {
